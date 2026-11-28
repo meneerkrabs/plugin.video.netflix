@@ -24,7 +24,7 @@ from resources.lib.services.nfsession.msl.device_session import load as load_dev
 from resources.lib.services.nfsession.msl.msl_request_builder import MSLRequestBuilder
 from resources.lib.services.nfsession.msl.msl_utils import (ENDPOINTS, create_req_params, generate_logblobs_params,
                                                             MSL_AUTH_NETFLIXID, MSL_AUTH_USER_ID_TOKEN,
-                                                            MSL_AUTH_EMAIL_PASSWORD)
+                                                            MSL_AUTH_EMAIL_PASSWORD, MSL_AUTH_DEVICE_SESSION)
 from resources.lib.utils.esn import get_esn
 from resources.lib.utils.logging import LOG, measure_exec_time_decorator
 
